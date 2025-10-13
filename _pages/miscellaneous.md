@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## My Special Assistant Chichi 
-<img src="/images/Chichi2.png" alt="Chichi looking scholarly" width="300">
+<img src="/images/Chichi2.jpg" alt="Chichi looking scholarly" width="300">
 
 Since her birth, Chichi has been an honorary scholar in residence, dedicating her life to the most profound academic pursuits. As my special assistant, she provides essential mental support during long hours of research, often in the form of purrs and head-bonks.
 
