@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## My Special Assistant Chichi 
-![Chichi looking scholarly](/images/Chichi2.png){:.cat-photo}
+<img src="/images/Chichi2.png" alt="Chichi looking scholarly" width="300">
 
 Since her birth, Chichi has been an honorary scholar in residence, dedicating her life to the most profound academic pursuits. As my special assistant, she provides essential mental support during long hours of research, often in the form of purrs and head-bonks.
 
@@ -16,4 +16,4 @@ Her primary research areas include:
 * **Avian Community Foraging Behaviors**
 * And many other topics of critical importance.
 
-![Chichi & me at college graduation](/images/chichi.png){:.cat-photo}
+<img src="/images/chichi.png" alt="Chichi & me at college graduation" width="300">
