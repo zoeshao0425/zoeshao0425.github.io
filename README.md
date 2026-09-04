@@ -27,14 +27,31 @@ adds the footnote automatically.
 
 ## Publication cover images
 
-Each paper's cover is a thumbnail of the top of its first page, generated from the PDF:
+Each paper's cover is its **Figure 1**, extracted straight from the PDF:
 
 ```bash
-tools/make_covers.sh files/YourPaper.pdf assets/images/covers/venue-shortname.png
+pip install pymupdf                     # one-time
+tools/extract_figure1.py files/YourPaper.pdf assets/images/covers/venue-shortname.png
 ```
 
-Then point the entry's `cover:` at it. Requires Ghostscript (`brew install ghostscript`).
-A paper with no `cover:` falls back to an auto-generated colored bubble pattern.
+It finds the "Figure 1:" caption, takes the artwork above it, and scales that onto a
+white 600x400 canvas (the 3:2 box the theme shows covers in). It handles one-column
+and full-width figures, and skips the running head on inner pages.
+
+If it picks the wrong figure or the crop is off:
+
+```bash
+tools/extract_figure1.py paper.pdf out.png --debug     # show the detected geometry
+tools/extract_figure1.py paper.pdf out.png --page 3    # force the page (0-indexed)
+tools/extract_figure1.py paper.pdf out.png --top 120   # force the top edge, in PDF points
+```
+
+For a paper with no usable Figure 1, `tools/make_covers.sh` is the fallback -- it
+crops the top of page 1 (title, authors, abstract) instead. It needs Ghostscript
+(`brew install ghostscript`).
+
+Then point the entry's `cover:` at whichever you generated. A paper with no `cover:`
+falls back to an auto-generated colored bubble pattern.
 
 ## Running locally
 
