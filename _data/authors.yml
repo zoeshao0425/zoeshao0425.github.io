@@ -1,18 +1,68 @@
-# Authors
+# Author registry for _includes/widgets/author_list.html
+#
+# Each top-level key is the exact author string used in publication front matter,
+# WITHOUT any trailing "*" (equal contribution) or "#" (corresponding author) mark
+# -- the include strips those marks before looking the author up here.
+#
+# Per-author options (all optional):
+#   name:  display override; defaults to the key itself
+#   url:   personal homepage; renders the name as a link (omit -> plain text)
+#   bold:  true to render the name in bold (used for the site owner)
+#
+# If a key has no entry at all, the include still falls back to the raw key.
+# Every author appearing in a publication is listed here anyway, so the file
+# doubles as a complete roster.
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+# ----- Site owner -----
 
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+"Zilei Shao":
+  bold: true
+
+# ----- Faculty / senior collaborators -----
+
+"Guy Van den Broeck":
+  url: https://web.cs.ucla.edu/~guyvdb/
+
+"Rose Yu":
+  url: https://roseyu.com/
+
+"Erin J. Talvitie":
+  url: https://sites.google.com/g.hmc.edu/erinjtalvitie
+
+"Zhe Zeng":
+  url: https://zzeng.me/
+
+# ----- Postdocs / graduate collaborators -----
+
+"Anji Liu":
+  url: https://liuanji.github.io/
+
+"Benjie Wang":
+  url: https://web.cs.ucla.edu/~benjiewang/
+
+"Renato L. Geh":
+  url: https://web.cs.ucla.edu/~renatolg/
+
+"Heng Zhao":
+  url: https://henghugozhao.github.io/
+
+"Ian Li":
+  url: https://ianli18.github.io/
+
+# ----- Harvey Mudd undergraduate collaborators -----
+# No public homepage verified; these render as plain text.
+
+"Huiying Li":
+  name: Huiying Li
+
+"Jinghan Hu":
+  name: Jinghan Hu
+
+"Jacob Boerma":
+  name: Jacob Boerma
+
+"Rory Zhao":
+  name: Rory Zhao
+
+"Xintong Wang":
+  name: Xintong Wang

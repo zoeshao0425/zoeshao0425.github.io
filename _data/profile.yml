@@ -1,0 +1,77 @@
+primary_name: "Zilei Shao"
+secondary_name: ""
+navbar_name: "Zilei Shao"
+
+positions:
+- name: Ph.D. Student in Computer Science
+- name: University of California, Los Angeles
+  logo: /assets/images/badges/ucla.svg
+
+
+email: "zileishao@g.ucla.edu"
+cv_link: /files/ZileiShao_Resume.pdf
+gscholar: gyNJ0DgAAAAJ
+github: zoeshao0425
+# Optional, add if you ever want them: twitter, linkedin, orcid, wechat_qrcode
+
+short_bio_text_justify: true
+short_bio: >-
+  <p>
+    I am a Ph.D. student in Computer Science at the University of California, Los Angeles, advised by
+    Prof. <a href="https://web.cs.ucla.edu/~guyvdb/" target="_blank">Guy Van den Broeck</a> in the
+    <a href="http://starai.cs.ucla.edu/" target="_blank">StarAI Lab</a>. I go by <strong>Zoe</strong>.
+  </p>
+  <p>
+    My research integrates tractable probabilistic models into modern neural architectures to improve the
+    training efficiency, inference quality, and controllability of deep generative models. I also develop
+    optimization techniques for probabilistic and generative models, spanning parameter learning,
+    low-variance gradient estimation, and differentiable routing in large-scale architectures. In a related
+    line of work, I study tokenization in Large Language Models (LLMs) as a neurosymbolic problem, showing
+    that non-canonical tokenizations of the same input can substantially change model behavior, with the
+    broader goal of making these large-scale systems more tractable and reliable.
+  </p>
+  <p>
+    Before my doctoral studies, I earned my Bachelor of Science degree in a joint major of Computer Science
+    and Mathematics at <a href="https://www.hmc.edu" target="_blank">Harvey Mudd College</a>, where I was
+    deeply involved in bounding-box inference within the context of model-based Reinforcement Learning under
+    the supervision of Prof.
+    <a href="https://sites.google.com/g.hmc.edu/erinjtalvitie" target="_blank">Erin Talvitie</a>.
+  </p>
+
+portrait_url: /assets/images/photos/portrait.jpg
+# portrait_caption: >-
+#   Photo caption (this caption is optional, comment it out to disable).
+
+education:
+- name: University of California, Los Angeles
+  logo: /assets/images/badges/ucla.svg
+  position: >-
+    Ph.D. in Computer Science <br/>
+    Advisor: Prof. Guy Van den Broeck
+  date: Sep. 2024 - present
+- name: Harvey Mudd College
+  logo: /assets/images/badges/hmc.svg
+  position: >-
+    B.S. in Joint Major of Computer Science and Mathematics <br/>
+    GPA: 3.94 / 4.0
+  date: Aug. 2020 - May 2024
+
+experience:
+- name: Waymo LLC
+  logo: /assets/images/badges/waymo.svg
+  position: Software Engineer Intern, Predictive Planner
+  date: Jun. 2025 - Sep. 2025
+- name: StarAI Lab, UCLA
+  logo: /assets/images/badges/ucla.svg
+  position: Graduate Researcher
+  date: May 2024 - present
+- name: L.A.C.E. Lab, Harvey Mudd College
+  logo: /assets/images/badges/hmc.svg
+  position: Undergraduate Researcher
+  date: Jun. 2022 - Jul. 2023
+
+awards:
+- name: Oral Presentation, AISTATS 2026
+  date: 2026
+- name: Best Poster Award, NeurIPS 2025 SPIGM Workshop
+  date: 2025
